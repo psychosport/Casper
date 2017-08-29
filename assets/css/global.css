@@ -3,11 +3,14 @@
 
 :root {
     /* Colours */
-    --blue: #3eb0ef;
+    --blue: #437192;
     --green: #a4d037;
-    --darkgreen: #11772D;
+    --darkgreen: #429D74;
     --purple: #ad26b4;
-    --yellow: #fecd35;
+
+    --yellow: #E3AA60;
+    --yellow-darker: #C4883A;
+
     --red: #f05230;
     --darkgrey: #15171A;
     --midgrey: #738a94;
@@ -15,6 +18,11 @@
     --whitegrey: #e5eff5;
     --pink: #fa3a57;
     --brown: #a3821a;
+    --white: #ffffff;
+
+    /* Components */
+    --post-card-margin-bottom: 40px;
+    --post-card-margin-h: 20px;
 }
 
 /* Reset

@@ -151,7 +151,7 @@ body {
     align-items: center;
     min-height: 200px;
     max-height: 450px;
-    padding: 10vw 4vw;
+    padding: 4vw 4vw 5vw 4vw;
     text-align: center;
 }
 
@@ -385,7 +385,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     flex-direction: column;
     min-height: 300px;
     overflow: hidden;
-    margin: 0 20px 40px;
+    margin: 0 var(--post-card-margin-h) var(--post-card-margin-bottom);
     background: #fff center center;
     background-size: cover;
     border-radius: 5px;

@@ -24,11 +24,21 @@ into the {body} of the default.hbs template --}}
     <div class="inner">
 
         <div class="post-feed">
-            {{#foreach posts}}
-
+            {{#foreach posts from="1" to="1"}}
                 {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
                 {{> "post-card"}}
+            {{/foreach}}
 
+            {{> 'call-to-action-discover-our-services'}}
+
+            {{#foreach posts from="2" to="5"}}
+                {{> "post-card"}}
+            {{/foreach}}
+
+            {{> 'call-to-action-learn-about-us'}}
+
+            {{#foreach posts from="6"}}
+                {{> "post-card"}}
             {{/foreach}}
         </div>
 
