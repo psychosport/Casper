@@ -2,38 +2,41 @@
 
 /* CALL TO ACTIONS */
 .wrapper-call-to-action {
-  padding: 0 var(--post-card-margin-h) var(--post-card-margin-bottom);
-  width: 100%;
+    margin:
+        calc(var(--call-to-action-margin-v) - var(--post-card-margin-bottom))
+        var(--post-card-margin-h)
+        var(--call-to-action-margin-v);
+    width: 100%;
 }
 
 .call-to-action {
-  background-color: var(--yellow);
-  color: var(--white);
-  border-radius: 3px;
-  text-align: center;
-  padding: 30px;
+    background-color: var(--yellow);
+    color: var(--white);
+    border-radius: 3px;
+    text-align: center;
+    padding: 50px;
 }
 
 .call-to-action p {
-  font-size: 2rem;
+    font-size: 3rem;
 }
 
 .button-call-to-action {
-  background: var(--yellow-darker);
-  color: var(--white);
-  padding: 10px 20px;
-  border-radius: 2px;
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 1.75rem;
+    background: var(--yellow-darker);
+    color: var(--white);
+    padding: 10px 20px;
+    border-radius: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 2rem;
 }
 
 .button-call-to-action:hover {
-  text-decoration: none;
-  background: color(var(--yellow-darker) lightness(-1%));
+    text-decoration: none;
+    background: color(var(--yellow-darker) lightness(-1%));
 }
 
 /* POST */
 .read-next.outer {
-  background-color: var(--white);
+    background-color: var(--white);
 }
