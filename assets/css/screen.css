@@ -539,7 +539,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .post-full-image {
-    height: 800px;
+    height: 400px;
     margin: 0 -10vw -165px;
     background: var(--lightgrey) center center;
     background-size: cover;
@@ -566,7 +566,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     margin: 0 auto;
     padding: 70px 100px 0;
     font-family: Georgia, serif;
-    font-size: 2.2rem;
+    font-size: 1.75rem;
     line-height: 1.6em;
     background: #fff;
 }
